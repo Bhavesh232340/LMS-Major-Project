@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  gap: 20px;
+  background-color:gray;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar a.active {
+  color: black;
+  font-size: larger;
+}
